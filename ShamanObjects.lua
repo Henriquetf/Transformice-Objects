@@ -1,6 +1,6 @@
 ShamanObjects = {
     -- Padrão
-    Standard {
+    Standard = {
         [00] = "Seta",
         [01] = "Caixa pequena",
         [02] = "Caixa",
@@ -12,17 +12,17 @@ ShamanObjects = {
         [44] = "Totem",
         [54] = "Gelo",
         [88] = "Desenhador",
-    }
+    },
 
     -- Tábuas
-    Board {
+    Board = {
         [03] = "Tábua pequena",
         [04] = "Tábua",
         [45] = "Tábua de gelo",
         [46] = "Tábua de chocolate",
         [60] = "Tábua minúscula",
         [67] = "Tábua grande",
-    }
+    },
 
     -- Pregos
     Pin = {
@@ -33,7 +33,7 @@ ShamanObjects = {
         [15] = "Prego azul - Girar esquerda",
         [16] = "Prego azul - Girar esquerda",
         [22] = "Prego amarelo",
-    }
+    },
 
     -- Bolas de canhão
     Cannonball = {
@@ -41,13 +41,13 @@ ShamanObjects = {
         [18] = "Bola de canhão - Baixo",
         [19] = "Bola de canhão - Direita",
         [20] = "Bola de canhão - Esquerda",
-    }
+    },
 
     -- Portais
     Portal = {
         [26] = "Portal azul",
         [27] = "Portal vermelho",
-    }
+    },
 
     -- Balões
     Balloon = {
@@ -55,13 +55,13 @@ ShamanObjects = {
         [29] = "Balão vermelho",
         [30] = "Balão verde",
         [31] = "Balão amarelo",
-    }
+    },
 
     -- Runas
     Rune = {
         [32] = "Runa",
         [62] = "Runa estável",
-    }
+    },
 
     -- Consumíveis
     Consumable = {
@@ -76,7 +76,7 @@ ShamanObjects = {
         [95] = "Bola de papel",
         [96] = "Balão misterioso",
         [97] = "Energy Orb",
-    }
+    },
 
     -- Habilidades Shaman
     ShamanSkill = {
@@ -116,7 +116,7 @@ ShamanObjects = {
         [92] = "Renovação",
         [93] = "Puff +salto rato",
         [94] = "Gatman",
-    }
+    },
 
     -- Nada ou não funciona
     Broken = {
@@ -138,7 +138,7 @@ ShamanObjects = {
         [98] = "Água",
         [99] = "Água",
         [100] = "Nada - sólido",
-    }
+    },
     
     -- Em frente há caixas customizadas,
     -- mas elas não aparecem para outros jogadores
